@@ -120,7 +120,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>WSock32.Lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>miniweb.exe</OutputFile>
+      <OutputFile>$(OutDir)\miniweb.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)MiniWeb.pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
@@ -140,7 +140,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>WSock32.Lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>miniweb.exe</OutputFile>
+      <OutputFile>$(OutDir)\miniweb.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -161,7 +161,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>WSock32.Lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>httpd.exe</OutputFile>
+      <OutputFile>$(OutDir)\miniweb.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -182,7 +182,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>WSock32.Lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>miniweb.exe</OutputFile>
+      <OutputFile>$(OutDir)\miniweb.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -203,7 +203,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>WSock32.Lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>httpd.exe</OutputFile>
+      <OutputFile>$(OutDir)\miniweb.exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)MiniWeb.pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
